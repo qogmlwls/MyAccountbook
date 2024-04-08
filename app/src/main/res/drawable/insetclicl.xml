@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/calendar_select_background"
+    android:insetRight="8dp"
+    android:insetLeft="8dp"
+    android:insetBottom="8dp"
+    android:insetTop="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

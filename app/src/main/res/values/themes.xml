@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Base.Theme.MyAccountbook" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
+<!--    </style>-->
+
+    <style name="Base.Theme.MyAccountbook" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorButtonNormal">@color/white</item>
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="MyCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme.NumberPicker" parent="">
+        <item name="colorControlNormal">@color/orange</item>
+    </style>
+<!--    <style name="AppTheme.NumberPicker" parent="AppTheme">-->
+<!--        <item name="colorControlNormal">@color/colorPrimary</item>-->
+<!--    </style>-->
+
+<!--    <style name="AppTheme.NumberPicker" parent="AppTheme">-->
+<!--        <item name="colorControlNormal">@color/colorPrimary</item>-->
+<!--    </style>-->
+<!--    -->
+    <style name="Theme.MyAccountbook" parent="Base.Theme.MyAccountbook" />
+</resources>
